@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
     "express": "^4.17.1",
     "history": "^4.7.2",
     "live-server": "^1.2.1",
@@ -22,8 +24,5 @@
     "build": "parcel build src/index.html",
     "start": "npm run build && node ./"
   },
-  "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4"
-  }
+  "devDependencies": {}
 }
