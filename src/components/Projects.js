@@ -5,7 +5,7 @@ const Project = props => { //if need props then need to feed in props
     const {title, image, description, link} = props.project;
 
     return (
-        <div style={{display: "inline-block", width: 300, marginLeft: 15, marginRight: 15}} >
+        <div style={{display: "inline-block", width: 320, marginLeft: 15, marginRight: 15}} >
             <h3>{title}</h3>
             <a href={link} target="_blank"><img src={image} alt="profile" style={{width:200, height:120, padding: 10}}/></a>
             <p>{description}</p>

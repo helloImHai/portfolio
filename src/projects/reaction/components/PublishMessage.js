@@ -27,7 +27,7 @@ class PublishMessage extends Component {
         return (
             <div>
                 <h3>Got something to say?</h3>
-                <input onChange={this.updateText} onKeyPress={this.handleKeyPress}/>
+                <input style={{width: 300}} onChange={this.updateText} onKeyPress={this.handleKeyPress}/>
                 <button onClick={this.publishMessage}>Publish</button>
             </div>
         )

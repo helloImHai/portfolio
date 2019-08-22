@@ -10,7 +10,7 @@ class App extends Component {
             <div>
                 <h2>Reaction</h2>
                 <hr/>
-                <h4>username</h4>
+                <h4>Username</h4>
                 <Username/>
                 <hr/>
                 <PublishMessage/>
