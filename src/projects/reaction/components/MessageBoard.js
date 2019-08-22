@@ -24,7 +24,7 @@ const MessageReactions = props => {
 
 const MessageBoard = ({messages, reactions}) => {
     return (
-        messages.map(message => {
+        messages.sort((x,y) => y.timestamp - x.timestamp).map(message => {
             const {id, username, text, timestamp} = message;
             return (
                 <div key = {id}>

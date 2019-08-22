@@ -27,7 +27,7 @@ class App extends Component { // Component can have many elements combined
                                         I am a year 2 student in NUS School of Computing. 
                                     </p>
                                     <p> 
-                                        I made this portfolio website to practice the skills I learnt from an online React bootcamp.
+                                        I made this portfolio website to practice the using React and public APIs.
                                     </p>
                                     <button className="myButton" onClick = {this.toggleDisplayBio}>Read less</button>
                                 </div>
