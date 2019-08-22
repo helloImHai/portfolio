@@ -1,28 +1,20 @@
-import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project3 from "../assets/project3.png"
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 
 const PROJECTS = [
     {
         id: 1,
-        title: "Example React Application", 
-        description: "A quick brown fox jumps over the lazy dog",
-        link: "https://github.com/15Dkatz/example",
+        title: "Source Academy summer project", 
+        description: "Helped improve frontend-testing the source academy website.",
+        link: "https://sourceacademy.nus.edu.sg",
         image: project1,    
     },
     {
         id: 2,
-        title: "My API", 
-        description: "A quick brown fox jumps over the lazy dog",
-        link: "https://github.com/15Dkatz/example",
+        title: "My wrapper API", 
+        description: "A wrapper API for Hacker news, mainly used to get through CORS error",
+        link: "https://github.com/helloImHai/react-bootcamp-news-api",
         image: project2,    
-    },
-    {   
-        id: 3,
-        title: "Operating Systems Final Project", 
-        description: "A quick brown fox jumps over the lazy dog",
-        link: "https://github.com/15Dkatz/example",
-        image: project3,    
     },
 ];
 

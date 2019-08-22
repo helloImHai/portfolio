@@ -19,22 +19,25 @@ class App extends Component { // Component can have many elements combined
                 <p>My name is Hai, welcome to my portfolio!</p>
                 <Title/>
                 <div className="p">
-                {
-                    this.state.displayBio ? 
-                    (
-                        <div>
-                            <p>
-                                I am a year 2 student in NUS School of Computing. I made this portfolio website
-                                to practice the limited knowledge I have in web development. 
-                                I am always keen to create and learn new things.
-                            </p>
-                            <button className="myButton" onClick = {this.toggleDisplayBio}>Read less</button>
-                        </div>
-                    )
-                    : <div>
-                        <button className="myButton" onClick = {this.toggleDisplayBio}>Read more</button>
-                    </div>
-                }  
+                    {
+                        this.state.displayBio ? 
+                            (
+                                <div>
+                                    <p>
+                                        I am a year 2 student in NUS School of Computing. 
+                                    </p>
+                                    <p> 
+                                        I made this portfolio website to practice the skills I learnt from an online React bootcamp.
+                                    </p>
+                                    <button className="myButton" onClick = {this.toggleDisplayBio}>Read less</button>
+                                </div>
+                            ) : 
+                            (
+                                <div>
+                                    <button className="myButton" onClick = {this.toggleDisplayBio}>Read more</button>
+                                </div>
+                            )
+                    }  
                 </div>
                 <hr/>
                 <Projects/>
